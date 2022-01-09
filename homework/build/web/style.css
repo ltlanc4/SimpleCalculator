@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    background-image: url("./hinh-nen-mau-xanh-1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+p {
+    display: inline;
+    position: relative;
+    left: 3rem;
+}
+
+h1 {
+    position: fixed;
+    top: 30%;
+    left: 55%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em;
+    margin-left: -15em;
+    display: flex;
+    justify-content: center;
+    font-size: 7rem;
+    color: #ecf3f3;
+}
+
+.heading {
+    position: fixed;
+    top: 95.7%;
+    left: 50.3%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em;
+    margin-left: -15em;
+    display: flex;
+    justify-content: center;
+    font-size: 7rem;
+    color: #ecf3f3;
+}
+
+.position {
+    position: fixed;
+    top: 60%;
+    left: 43.5%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em;
+    margin-left: -15em;
+}
+
+.position-option {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator {
+    margin: 2rem 6rem 0;
+    padding: 2rem;
+    width: 62rem;
+    font-size: 4rem;
+    background-color: #0279cb;
+    color: #ecf3f3;
+    box-shadow: 0 0 5pt 2pt #d3d3d3;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.calculator:hover {
+    background-color: #ecf3f3;
+    color: #0279cb;
+    transition: 0.5s;
+}
+
+.basic-position-input {
+    position: fixed;
+    top: 75%;
+    left: 61%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em;
+    margin-left: -15em;
+    transform: scale(200%);
+    color: #ecf3f3;
+}
+
+.basic-position-button {
+    position: fixed;
+    top: 80%;
+    left: 46%;
+    margin-top: -9em;
+    margin-left: -15em;
+    display: flex;
+}
+
+.basic-calculator {
+    margin: 1rem;
+    padding: 2rem;
+    width: 15rem;
+    font-size: 4rem;
+    background-color: #0279cb;
+    color: #ecf3f3;
+    box-shadow: 0 0 5pt 2pt #d3d3d3;
+    border: none;
+    border-radius: 1rem;
+}
+
+.basic-calculator:hover {
+    background-color: #ecf3f3;
+    color: #0279cb;
+    transition: 0.5s;
+}
+
+.basic-calculator-input {
+    width: 20rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5pt 2pt #d3d3d3;
+    outline: none;
+    position: relative;
+    left: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.return {
+    color: #ecf3f3;
+    position: fixed;
+    top: 40%;
+    left: 47%;
+    margin-top: -9em;
+    margin-left: -15em;
+    display: flex;
+    transform: scale(300%);
+    text-decoration: none;
+}
+
+.return:hover {
+    color: #0279cb;
+    transition: 0.5s;
+}
+
+.linear-equation {
+    margin: 2rem 6rem 0;
+    padding: 2rem;
+    width: 53rem;
+    font-size: 4rem;
+    background-color: #0279cb;
+    color: #ecf3f3;
+    box-shadow: 0 0 5pt 2pt #d3d3d3;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.linear-equation:hover {
+    background-color: #ecf3f3;
+    color: #0279cb;
+    transition: 0.5s;
+}
+
+.linear-equation-input {
+    width: 20rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5pt 2pt #d3d3d3;
+    outline: none;
+    position: relative;
+    left: 3rem;
+}
+
+.linear-position-input {
+    position: fixed;
+    top: 75%;
+    left: 61%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em;
+    margin-left: -15em;
+    transform: scale(200%);
+    color: #ecf3f3;
+}
+
+.linear-position-button {
+    position: fixed;
+    top: 74%;
+    left: 46%;
+    margin-top: -9em;
+    margin-left: -15em;
+    display: flex;
+}
+
+.position-result {
+    top: 7rem;
+    left: 0;
+}
+
+.position-a {
+    top: -1rem;
+}
+
+.position-b {
+    top: -2rem;
+}
+
+.position-c {
+    top: -3rem;
+}
+
+.position-x {
+    top: 4rem;
+}
+
+.position-x1 {
+    top: 3rem;
+    left: 3rem;
+}
+
+.position-x2 {
+    top: 5.5rem;
+    left: -15.2rem;
+}
+
+.quadratic-equation {
+    margin: 2rem 6rem 0;
+    padding: 2rem;
+    width: 53rem;
+    font-size: 4rem;
+    background-color: #0279cb;
+    color: #ecf3f3;
+    box-shadow: 0 0 5pt 2pt #d3d3d3;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.quadratic-equation:hover {
+    background-color: #ecf3f3;
+    color: #0279cb;
+    transition: 0.5s;
+}
+
+.quadratic-equation-input {
+    width: 20rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5pt 2pt #d3d3d3;
+    outline: none;
+    position: relative;
+    left: 3rem;
+}
+
+.quadratic-position-input {
+    position: fixed;
+    top: 75%;
+    left: 61%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em;
+    margin-left: -15em;
+    transform: scale(200%);
+    color: #ecf3f3;
+}
+
+.quadratic-position-button {
+    position: fixed;
+    top: 82%;
+    left: 46%;
+    margin-top: -9em;
+    margin-left: -15em;
+    display: flex;
+}
